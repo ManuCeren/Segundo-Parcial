@@ -6,15 +6,190 @@ header, section, article, nav, footer, aside,figure, form{
 }
 body{
     margin: 0;
-    background-color: #000;
+    background-color: #d9d9d9;
 }
 *{
     box-sizing: border-box;
 }
 p, h1, h2, h3, h4{
    
-    font-family: "Oswald", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     color: #555555;
     margin: 6px;
+}
+/* ESTILOS PARA CABECER */
+#cajacabecera{
+    width: 100%;
+    height: 150px;
+    background: rgb(5,0,5);
+    background: linear-gradient(90deg, rgba(5,0,5,1) 0%, rgba(138,26,87,1) 58%, rgba(245,13,139,1) 100%);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    border-bottom: 5px solid #ffffff;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    /*margin: auto;*/
+}
+#logo{
+    width: 10%;
+    padding: 6px 0;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+
+}
+/* MENU */
+
+.menu{
+    width: 80%;
+ }
+ #btn-menu{
+     display: none;
+ }
+ #mmovil{
+     font-size: 30px;
+     cursor: pointer;
+     display: none;
+     text-align: right;
+     color: #b383b2;
+     padding: 6px;
+     
+ }
+ .menu ul{
+     display: flex;
+     justify-content: flex-start;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ .menu a{
+     display: block;
+     line-height: 87px;
+     padding:  0 10px;
+     color: white;
+     text-decoration: none;
+     font-size: 35px;
+ }
+ .menu a i{
+     font-size: 40px;
+     padding:  0 25px;
+     
+ }
+ .menu a:hover{
+    /* color: #EDBC65;*/
+     border-bottom: 2px solid #ffffff;
+ }
+ /* BANNER */
+ .banner{
+    background: #00000000;
+    height: 1004px;
+    position: relative;
+    margin-top: 150px;
+    padding-top: 150px;
+    overflow: hidden;
+    background-image: url("../img/13184292_5161886.jpg");
+    background-size: cover;
+    background-position: center;
+ }
+
+
+ .inicio{
+    background: #d9d9d9;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+    overflow: hidden;
+ }
+.titulo{
+    font-family: "Jaro", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    background-image: linear-gradient(90deg, #2e012e 40%, #640043 50%, #a80355 60%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    display: block;
+    margin-top: 0;
+}
+
+.calendario{
+    background: white;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+    overflow: hidden;
+ }
+ .articulos{
+    background: #d9d9d9;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+    overflow: hidden;
+ }
+ .mas{
+    background: white;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+    overflow: hidden;
+ }
+ .tren{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+ .ciudad{
+    position: absolute;
+    bottom: 0;
+}
+
+/* PIE DE PAGINA */
+
+footer{
+    background-color: #41002c;
+    padding: 20px;
+    height: 180px;
+}
+
+.elementos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+h3{
+  font-size: 45px;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 0;
+  text-align: left;
+}
+
+.redes_sociales ul{
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.redes_sociales ul li{
+  padding: 0 20px;
+}
+.redes_sociales ul li a{
+  color: #75166d;
+  text-align: right;
+  font-size: 50px;
 }
