@@ -179,9 +179,12 @@ h3{
 }
 
 .redes_sociales ul{
+  margin: 0;
+  bottom: 25px;
   padding: 0;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   list-style: none;
 }
 
@@ -189,7 +192,7 @@ h3{
   padding: 0 20px;
 }
 .redes_sociales ul li a{
-  color: #75166d;
+  color: #ed00da;
   text-align: right;
   font-size: 50px;
 }
